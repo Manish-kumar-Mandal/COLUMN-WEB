@@ -73,3 +73,16 @@ footer {
     padding: 20px;
     margin-top: 20px;
 }
+
+@media(max-width:500px) {
+
+    .nav-container {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-item{
+        margin: 6px;
+    }
+
+}
